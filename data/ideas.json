@@ -233,7 +233,7 @@
         {
           "platform": "github",
           "url": "https://github.com/Xtremilicious/projectlearn-project-based-learning",
-          "engagement_score": 6028
+          "engagement_score": 6029
         }
       ],
       "score": 0.5651,
@@ -395,7 +395,7 @@
           "engagement_score": 205
         }
       ],
-      "score": 0.5383,
+      "score": 0.5382,
       "first_seen": "2025-12-03",
       "last_seen": "2025-12-03"
     },
@@ -985,6 +985,29 @@
       "last_seen": "2026-03-01"
     },
     {
+      "id": "de45fb86d084",
+      "title": "What It Actually Feels Like to Build Something You're Proud Of",
+      "description": "Nobody talks about the emotional side of shipping. Let's fix that.     There's a specific kind of...",
+      "difficulty": "beginner",
+      "tags": [
+        "career",
+        "web",
+        "beginners",
+        "productivity"
+      ],
+      "domain": "web",
+      "sources": [
+        {
+          "platform": "devto",
+          "url": "https://dev.to/_boweii/what-it-actually-feels-like-to-build-something-youre-proud-of-35mi",
+          "engagement_score": 46
+        }
+      ],
+      "score": 0.5072,
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27"
+    },
+    {
       "id": "e7b87b118df5",
       "title": "MATLAB Simulink Challenge Project Hub",
       "description": "This MATLAB and Simulink Challenge Project Hub contains a list of research and design project ideas. These projects will help you gain practical experience and insight into technology trends and industry directions.",
@@ -1017,32 +1040,9 @@
           "engagement_score": 2072
         }
       ],
-      "score": 0.5072,
+      "score": 0.5071,
       "first_seen": "2021-02-05",
       "last_seen": "2021-02-05"
-    },
-    {
-      "id": "de45fb86d084",
-      "title": "What It Actually Feels Like to Build Something You're Proud Of",
-      "description": "Nobody talks about the emotional side of shipping. Let's fix that.     There's a specific kind of...",
-      "difficulty": "beginner",
-      "tags": [
-        "career",
-        "web",
-        "beginners",
-        "productivity"
-      ],
-      "domain": "web",
-      "sources": [
-        {
-          "platform": "devto",
-          "url": "https://dev.to/_boweii/what-it-actually-feels-like-to-build-something-youre-proud-of-35mi",
-          "engagement_score": 46
-        }
-      ],
-      "score": 0.5072,
-      "first_seen": "2026-04-27",
-      "last_seen": "2026-04-27"
     },
     {
       "id": "9c777ffce762",
@@ -1209,7 +1209,7 @@
           "engagement_score": 1918
         }
       ],
-      "score": 0.5024,
+      "score": 0.5023,
       "first_seen": "2021-01-03",
       "last_seen": "2021-01-03"
     },
@@ -1333,7 +1333,7 @@
           "engagement_score": 75
         }
       ],
-      "score": 0.4949,
+      "score": 0.4948,
       "first_seen": "2020-10-19",
       "last_seen": "2025-03-07"
     },
@@ -2968,7 +2968,7 @@
           "engagement_score": 52
         }
       ],
-      "score": 0.4299,
+      "score": 0.4298,
       "first_seen": "2025-08-21",
       "last_seen": "2025-08-21"
     },
@@ -3769,29 +3769,6 @@
       "last_seen": "2025-10-01"
     },
     {
-      "id": "55c7bf2199d9",
-      "title": "Building Disco Week 2: Making Event Networking Less Random 🪩",
-      "description": "Last week, I started a new series documenting the journey of building Disco, a more effective...",
-      "difficulty": "intermediate",
-      "tags": [
-        "buildinpublic",
-        "showdev",
-        "ml",
-        "programming"
-      ],
-      "domain": "ml",
-      "sources": [
-        {
-          "platform": "devto",
-          "url": "https://dev.to/saminarp/building-disco-week-2-making-event-networking-less-random-88h",
-          "engagement_score": 23
-        }
-      ],
-      "score": 0.4015,
-      "first_seen": "2025-10-21",
-      "last_seen": "2025-10-21"
-    },
-    {
       "id": "e7656bca20d6",
       "title": "student fest",
       "description": "Beginner-friendly introduction to coding and open source experience with coding challenges & real world projects",
@@ -3821,6 +3798,29 @@
       "score": 0.4014,
       "first_seen": "2025-10-13",
       "last_seen": "2025-10-13"
+    },
+    {
+      "id": "55c7bf2199d9",
+      "title": "Building Disco Week 2: Making Event Networking Less Random 🪩",
+      "description": "Last week, I started a new series documenting the journey of building Disco, a more effective...",
+      "difficulty": "intermediate",
+      "tags": [
+        "buildinpublic",
+        "showdev",
+        "ml",
+        "programming"
+      ],
+      "domain": "ml",
+      "sources": [
+        {
+          "platform": "devto",
+          "url": "https://dev.to/saminarp/building-disco-week-2-making-event-networking-less-random-88h",
+          "engagement_score": 23
+        }
+      ],
+      "score": 0.4014,
+      "first_seen": "2025-10-21",
+      "last_seen": "2025-10-21"
     },
     {
       "id": "b8f1cd66f547",
@@ -6001,7 +6001,7 @@
           "engagement_score": 86
         }
       ],
-      "score": 0.3191,
+      "score": 0.319,
       "first_seen": "2012-09-03",
       "last_seen": "2012-09-03"
     },
@@ -6191,7 +6191,7 @@
           "engagement_score": 1
         }
       ],
-      "score": 0.3151,
+      "score": 0.315,
       "first_seen": "2026-04-01",
       "last_seen": "2026-04-01"
     },
@@ -6278,6 +6278,29 @@
       "score": 0.3079,
       "first_seen": "2026-03-14",
       "last_seen": "2026-03-14"
+    },
+    {
+      "id": "45a4f25792ad",
+      "title": "python basics",
+      "description": "My Python learning repository as a self-taught software engineer building in public.",
+      "difficulty": "beginner",
+      "tags": [
+        "beginner-projects",
+        "learning-in-public",
+        "python",
+        "software-engineering"
+      ],
+      "domain": "other",
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/motkimlang76-tech/python-basics",
+          "engagement_score": 0
+        }
+      ],
+      "score": 0.3073,
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14"
     },
     {
       "id": "086db1d7c980",
@@ -6834,29 +6857,6 @@
       "last_seen": "2026-01-31"
     },
     {
-      "id": "62365693c3c7",
-      "title": "What should I build?",
-      "description": "I have a few Ideas and I would like to know which one has the best chances of success:<p>a) A dating app like tinder (Android&#x2F;ios) but you post just one 20 seconds video (no text, no pics)<p>b) A Chrome extension to seamlessly merge facebook and whatsapp on a single tab<p>c) A Chrome extension to edit videos online (right click &quot;edit video&quot; get simple edit options: cut&#x2F;copy+pas",
-      "difficulty": "beginner",
-      "tags": [
-        "story",
-        "author_mattigames",
-        "story_17009822",
-        "ask_hn"
-      ],
-      "domain": "mobile",
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=17009822",
-          "engagement_score": 52
-        }
-      ],
-      "score": 0.2915,
-      "first_seen": "2018-05-07",
-      "last_seen": "2018-05-07"
-    },
-    {
       "id": "a6a3ab585da4",
       "title": "react synth",
       "description": "🎹simple react synthesiser 🎹",
@@ -6878,6 +6878,29 @@
       "score": 0.2914,
       "first_seen": "2020-02-08",
       "last_seen": "2020-02-08"
+    },
+    {
+      "id": "62365693c3c7",
+      "title": "What should I build?",
+      "description": "I have a few Ideas and I would like to know which one has the best chances of success:<p>a) A dating app like tinder (Android&#x2F;ios) but you post just one 20 seconds video (no text, no pics)<p>b) A Chrome extension to seamlessly merge facebook and whatsapp on a single tab<p>c) A Chrome extension to edit videos online (right click &quot;edit video&quot; get simple edit options: cut&#x2F;copy+pas",
+      "difficulty": "beginner",
+      "tags": [
+        "story",
+        "author_mattigames",
+        "story_17009822",
+        "ask_hn"
+      ],
+      "domain": "mobile",
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=17009822",
+          "engagement_score": 52
+        }
+      ],
+      "score": 0.2914,
+      "first_seen": "2018-05-07",
+      "last_seen": "2018-05-07"
     },
     {
       "id": "344a9cbca0fc",
@@ -8682,33 +8705,6 @@
       "last_seen": "2026-01-31"
     },
     {
-      "id": "fe59a0854094",
-      "title": "awesome llm app ideas",
-      "description": "A curative list of app ideas that you can implement using the Large Language Models.",
-      "difficulty": "intermediate",
-      "tags": [
-        "ai-agent",
-        "generative-ai",
-        "hacktoberfest",
-        "hacktoberfest-accepted",
-        "hacktoberfest2023",
-        "ml",
-        "openai",
-        "project-ideas"
-      ],
-      "domain": "ml",
-      "sources": [
-        {
-          "platform": "github",
-          "url": "https://github.com/Shrest4647/awesome-llm-app-ideas",
-          "engagement_score": 13
-        }
-      ],
-      "score": 0.252,
-      "first_seen": "2023-10-05",
-      "last_seen": "2023-10-05"
-    },
-    {
       "id": "912e5a6d65ce",
       "title": "extreme beginner python projects",
       "description": "A Repo of projects for extreme beginners in python programming",
@@ -8744,6 +8740,33 @@
       "score": 0.252,
       "first_seen": "2025-07-01",
       "last_seen": "2025-07-01"
+    },
+    {
+      "id": "fe59a0854094",
+      "title": "awesome llm app ideas",
+      "description": "A curative list of app ideas that you can implement using the Large Language Models.",
+      "difficulty": "intermediate",
+      "tags": [
+        "ai-agent",
+        "generative-ai",
+        "hacktoberfest",
+        "hacktoberfest-accepted",
+        "hacktoberfest2023",
+        "ml",
+        "openai",
+        "project-ideas"
+      ],
+      "domain": "ml",
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/Shrest4647/awesome-llm-app-ideas",
+          "engagement_score": 13
+        }
+      ],
+      "score": 0.2519,
+      "first_seen": "2023-10-05",
+      "last_seen": "2023-10-05"
     },
     {
       "id": "878a3be5e099",
@@ -9143,7 +9166,7 @@
           "engagement_score": 20
         }
       ],
-      "score": 0.2478,
+      "score": 0.2477,
       "first_seen": "2021-11-22",
       "last_seen": "2021-11-22"
     },
@@ -10895,7 +10918,7 @@
           "engagement_score": 11
         }
       ],
-      "score": 0.2057,
+      "score": 0.2056,
       "first_seen": "2017-03-29",
       "last_seen": "2017-03-29"
     },
@@ -11398,7 +11421,7 @@
           "engagement_score": 5
         }
       ],
-      "score": 0.1881,
+      "score": 0.188,
       "first_seen": "2023-01-07",
       "last_seen": "2023-01-07"
     },
@@ -12097,28 +12120,6 @@
       "score": 0.1634,
       "first_seen": "2024-06-13",
       "last_seen": "2024-06-13"
-    },
-    {
-      "id": "2505ffe2a20d",
-      "title": "RPS Console",
-      "description": "A simple Rock-Paper-Scissors game built using HTML and JavaScript, playable in the browser console. Test your luck against the computer and see who wins!",
-      "difficulty": "beginner",
-      "tags": [
-        "beginner-project",
-        "beginner-projects",
-        "web"
-      ],
-      "domain": "web",
-      "sources": [
-        {
-          "platform": "github",
-          "url": "https://github.com/aawaizazhar/RPS-Console",
-          "engagement_score": 0
-        }
-      ],
-      "score": 0.1616,
-      "first_seen": "2025-02-23",
-      "last_seen": "2025-02-23"
     },
     {
       "id": "f8e9b8a7a009",
@@ -13084,33 +13085,6 @@
       "last_seen": "2019-06-04"
     },
     {
-      "id": "bcac9a674ef8",
-      "title": "fep result summary",
-      "description": "Design a responsive results summary component for a web app. Replicate a provided mockup, integrate dynamic data, and ensure cross-browser compatibility. Enhance HTML, CSS, and responsive design skills through practical frontend development.",
-      "difficulty": "intermediate",
-      "tags": [
-        "frontend-development",
-        "frontendmentor",
-        "junior-developer",
-        "personal-project",
-        "project-ideas",
-        "projects",
-        "web",
-        "web-development-project"
-      ],
-      "domain": "web",
-      "sources": [
-        {
-          "platform": "github",
-          "url": "https://github.com/Andy-Vasseur/fep-result-summary",
-          "engagement_score": 0
-        }
-      ],
-      "score": 0.1012,
-      "first_seen": "2023-10-16",
-      "last_seen": "2023-10-16"
-    },
-    {
       "id": "4662a7367e44",
       "title": "SimpleCalc",
       "description": "This project is a web-based calculator application that performs basic arithmetic operations including addition, subtraction, multiplication, and division. It also features functions for calculating percentages, squares, and square roots. The calculator is built using HTML, CSS, and JavaScript, with jQuery for DOM manipulation.",
@@ -13302,6 +13276,29 @@
       "last_seen": "2021-03-08"
     },
     {
+      "id": "8ea1d518fbdf",
+      "title": "App Calculadora",
+      "description": "Calculadora básica baseada em uma das ideias do repositório app-ideas de Florin Pop.",
+      "difficulty": "beginner",
+      "tags": [
+        "app-ideas",
+        "calculator-javascript",
+        "html-css-javascript",
+        "mini-project"
+      ],
+      "domain": "other",
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/EstevaoNaval/App-Calculadora",
+          "engagement_score": 0
+        }
+      ],
+      "score": 0.0676,
+      "first_seen": "2020-11-12",
+      "last_seen": "2020-11-12"
+    },
+    {
       "id": "139ad8f30868",
       "title": "Binario2Decimal",
       "description": "Conversor de números binários para decimais e vice-versa. Ideia baseada no repositório App-Ideias de Florin Pop.",
@@ -13318,29 +13315,6 @@
         {
           "platform": "github",
           "url": "https://github.com/EstevaoNaval/Binario2Decimal",
-          "engagement_score": 0
-        }
-      ],
-      "score": 0.0676,
-      "first_seen": "2020-11-12",
-      "last_seen": "2020-11-12"
-    },
-    {
-      "id": "8ea1d518fbdf",
-      "title": "App Calculadora",
-      "description": "Calculadora básica baseada em uma das ideias do repositório app-ideas de Florin Pop.",
-      "difficulty": "beginner",
-      "tags": [
-        "app-ideas",
-        "calculator-javascript",
-        "html-css-javascript",
-        "mini-project"
-      ],
-      "domain": "other",
-      "sources": [
-        {
-          "platform": "github",
-          "url": "https://github.com/EstevaoNaval/App-Calculadora",
           "engagement_score": 0
         }
       ],
@@ -13752,26 +13726,6 @@
       "last_seen": "2020-04-25"
     },
     {
-      "id": "4d7039f39fd3",
-      "title": "SimpleCalculator",
-      "description": "Desafio Calculadora",
-      "difficulty": "intermediate",
-      "tags": [
-        "app-ideas"
-      ],
-      "domain": "other",
-      "sources": [
-        {
-          "platform": "github",
-          "url": "https://github.com/GustavoPix/SimpleCalculator",
-          "engagement_score": 0
-        }
-      ],
-      "score": 0.0659,
-      "first_seen": "2020-04-18",
-      "last_seen": "2020-04-18"
-    },
-    {
       "id": "8db333fadd79",
       "title": "BorderRadius",
       "description": "Desafio Border Radius",
@@ -13790,6 +13744,26 @@
       "score": 0.0659,
       "first_seen": "2020-04-17",
       "last_seen": "2020-04-17"
+    },
+    {
+      "id": "4d7039f39fd3",
+      "title": "SimpleCalculator",
+      "description": "Desafio Calculadora",
+      "difficulty": "intermediate",
+      "tags": [
+        "app-ideas"
+      ],
+      "domain": "other",
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/GustavoPix/SimpleCalculator",
+          "engagement_score": 0
+        }
+      ],
+      "score": 0.0659,
+      "first_seen": "2020-04-18",
+      "last_seen": "2020-04-18"
     },
     {
       "id": "e04fc5a186c1",
@@ -13955,6 +13929,30 @@
       "score": 0.0648,
       "first_seen": "2019-09-10",
       "last_seen": "2019-09-10"
+    },
+    {
+      "id": "7ed5d69a7fca",
+      "title": "project ideas",
+      "description": "A repo where members of the programming club can share, explore, and contribute project ideas!",
+      "difficulty": "intermediate",
+      "tags": [
+        "collaboration",
+        "markdown",
+        "programming-club",
+        "project-ideas",
+        "teesside-university"
+      ],
+      "domain": "other",
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/tees-prog-club/project-ideas",
+          "engagement_score": 0
+        }
+      ],
+      "score": 0.0628,
+      "first_seen": "2016-11-12",
+      "last_seen": "2016-11-12"
     }
   ]
 }
