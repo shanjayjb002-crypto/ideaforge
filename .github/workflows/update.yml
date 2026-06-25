@@ -1,0 +1,93 @@
+name: Update ideas & deploy
+
+# Weekly refresh + deploy to GitHub Pages. Also runnable on demand, and on
+# pushes to main (so a frontend change deploys without waiting for the cron).
+on:
+  schedule:
+    - cron: "0 6 * * 1"          # every Monday 06:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/update.yml"
+
+# Needed to commit data back and to deploy Pages.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Don't run overlapping deploys.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Cache the sentence-transformers model so we don't re-download ~80MB weekly.
+      - name: Cache HF model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-all-MiniLM-L6-v2
+
+      # continue-on-error: a scraper hiccup (API rate limit, transient failure)
+      # must not block deploying the already-committed data/ideas.json.
+      - name: Run pipeline
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}   # add under Settings -> Secrets -> Actions
+        run: python -m scraper.pipeline
+
+      - name: Commit updated data (if changed)
+        continue-on-error: true
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/ideas.json)" ]]; then
+            git add data/ideas.json
+            git commit -m "chore: refresh ideas.json [skip ci]"
+            git push
+          else
+            echo "No change in data/ideas.json — nothing to commit."
+          fi
+
+      # Assemble the Pages artifact: the static site with the freshly built
+      # ideas.json copied in beside it (so the frontend's "data/ideas.json"
+      # fetch resolves on the deployed site).
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp -r site/* _site/
+          cp data/ideas.json _site/data/ideas.json
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

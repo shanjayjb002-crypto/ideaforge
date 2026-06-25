@@ -1,0 +1,5 @@
+# Normalize line endings. Keep LF for files executed on Linux CI runners.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.safetensors binary

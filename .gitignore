@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# sentence-transformers / HF model cache (don't commit downloaded models)
+.cache/
+*.bin
+*.safetensors
+
+# OS / editor / local agent config
+.DS_Store
+.idea/
+.vscode/
+.claude/
+
+# dev-only pipeline intermediates
+data/_intermediate/
+
+# local preview copy (assembled by CI for deploy)
+site/data/
+
+# build / deploy outputs
+public/
+.vercel/
+node_modules/
+.pytest_cache/

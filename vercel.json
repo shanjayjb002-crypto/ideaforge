@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "mkdir -p public/data && cp site/index.html site/app.js site/style.css public/ && cp data/ideas.json public/data/ideas.json",
+  "outputDirectory": "public",
+  "installCommand": "echo 'no install needed'",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/data/ideas.json",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+    }
+  ]
+}

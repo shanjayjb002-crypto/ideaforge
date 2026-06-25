@@ -1,0 +1,10 @@
+# --- Core pipeline dependencies (from spec) ---
+requests                 # HTTP for source fetchers (GitHub REST, Dev.to)
+sentence-transformers    # local embeddings: all-MiniLM-L6-v2 (CPU, no API)
+numpy                    # cosine similarity / vector math
+
+# --- Testing ---
+pytest                   # unit tests for dedupe + classify
+
+# Note: sentence-transformers pulls in torch + transformers transitively.
+# No other dependencies will be added without asking first (per project constraint).
